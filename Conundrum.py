@@ -1,0 +1,5 @@
+code = input()
+length = len(code)
+pat = "PER"*int(length/3)
+count = sum(1 if c1 != c2 else 0 for c1, c2 in zip(code, pat))
+print(count)
