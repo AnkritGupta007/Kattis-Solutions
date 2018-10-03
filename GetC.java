@@ -1,3 +1,8 @@
+/*
+Unfortunately, this is the naive approach.
+It will not complete the computation in the time limit
+however the code is correct (if time isn't an issue)
+*/
 import java.util.Scanner;
 
 public class getC {
